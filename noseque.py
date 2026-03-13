@@ -30,7 +30,7 @@ st.markdown("""
         font-family: 'Arial Black', Gadget, sans-serif;
         font-size: 3.2rem;
         color: white;
-        text-shadow: 4px 4px #F012BE;
+        text-shadow: 4px 4px #F012BE
         line-height: 1.1;
     }
 
@@ -66,3 +66,35 @@ font-size: 1.2rem;
 st.markdown(f"<div class='date-left'>📅 {date.today().strftime('%d / %m / %Y')}</div>", unsafe_allow_html=True)
 
 st.markdown("<h1 class='header-title'>🤖 Inteligencia artificial en las escuelas: ¿motivación o desmotivación? 🎓</h1>", unsafe_allow_html=True)
+st.markdown("""
+<div class="main-card">
+
+<span class="section-icon">🔍 El Motor Invisible: Cómo la Inteligencia Artificial está Redefiniendo las Ganas de Aprender</span>
+
+Durante décadas, el aula de clases ha sido un escenario de batalla silenciosa contra la apatía. 
+El modelo tradicional, diseñado bajo una lógica de "talla única", a menudo dejaba a los estudiantes 
+sintiéndose como piezas de un engranaje.
+
+<span class="section-icon">🧠 El Trípode de la Motivación Humana</span>
+
+Para entender este cambio debemos mirar hacia la Teoría de la Autodeterminación (SDT). 
+Esta teoría plantea tres necesidades psicológicas básicas:
+
+• Autonomía  
+• Competencia  
+• Relación  
+
+<span class="section-icon">🤖 La IA como Espejo de Nuestras Habilidades</span>
+
+La IA educativa puede ofrecer retroalimentación instantánea. 
+Esto permite que los estudiantes desarrollen mayor autorregulación 
+y perciban control sobre su aprendizaje.
+
+<span class="section-icon">🚀 Un Futuro de Personalización Extrema</span>
+
+La inteligencia artificial puede reducir tareas repetitivas y permitir 
+que estudiantes y docentes se concentren en habilidades más complejas 
+como el pensamiento crítico y la creatividad.
+
+</div>
+""", unsafe_allow_html=True)
